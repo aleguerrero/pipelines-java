@@ -12,8 +12,8 @@ pool:
 steps:
 - task: Gradle@2
   inputs:
-    workingDirectory: ''
-    gradleWrapperFile: 'gradlew'
+    workingDirectory: 'IdentityService'
+    gradleWrapperFile: 'IdentityService/gradlew'
     gradleOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.11'
